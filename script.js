@@ -1,5 +1,6 @@
 const container = document.querySelector('.container');
 const button = document.querySelector('button');
+const resetButton = document.querySelector('.reset');
 
 function makeGrid(size) {
     container.innerHTML = '';
@@ -26,6 +27,10 @@ function makeGrid(size) {
             div.style.backgroundColor = `rgba(${r},${g},${b},${currentOpacity})`;
             
         });
+        resetButton.addEventListener('click', () => {
+            div.style.backgroundColor = `rgba(255,255,255,1)`;
+            div.dataset.opacity = 0;
+        })
         container.appendChild(div);
     }
    
