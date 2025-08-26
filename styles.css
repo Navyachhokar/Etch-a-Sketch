@@ -4,19 +4,41 @@
     font-family:Arial, Helvetica, sans-serif ;
     box-sizing: border-box;
 }
+
 .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin:40px 60px;
-    max-width: 800px;
+    margin:50px auto;
+    width: 100%;
     border: 2px solid black;
-
 }
 .box{
-    border: 1px solid black;
-    width: calc(100%/16);
+    outline: 1px solid black;
     aspect-ratio: 1 / 1;
-    box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
     background-color: rgb(193, 98, 98);
+}
+
+button{
+  background-color: beige;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid black; 
+  max-width: 150px;
+}
+
+button:hover{
+    background-color: rgb(222, 222, 158);
+}
+
+.wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    align-items: center;
 }
