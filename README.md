@@ -15,7 +15,7 @@ The grid can be reset at any time with the **Reset** button.
 ---
 
 ## Demo 📸
-![Grid Hover Demo](./assets/assets/20250826-1303-15.3167322.gif)
+![Grid Hover Demo](./assets/20250826-1303-15.3167322.gif)
 
 ---
 
